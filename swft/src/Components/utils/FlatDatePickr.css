@@ -1,0 +1,43 @@
+.flatPickerDiv{
+    display: block;
+    /* width:20%; */
+    margin-right: 1%;   
+}
+.flatpickr-calendar{
+    z-index: 1000000!important;
+    border: 1px solid rgb(169, 169, 169);
+}
+.flatPickerClass{
+    height: 22px;
+    width: 100%;
+    min-width: 126px;
+    max-width: 335px;
+    padding: 4px 0px;
+    display: flex;
+    align-items: center;
+    /* border: none; */
+    border: 1px solid black;
+    border-right: none;
+}
+.flatPickerClass input{
+    height: 25px;
+    width: 100%;
+    max-width: 300px;
+    min-width: 160px;  
+    padding:0 0 0 4px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color:black;
+}
+.flatPickerClass input::placeholder{
+    color: #323130;
+}
+.flatPickerClass button{
+    border: 1px solid black;   
+    /* border-bottom:none;  */
+}
+.flatPickerClass button i{
+   color:black;
+   font-size: 12px;
+}

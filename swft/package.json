@@ -1,0 +1,74 @@
+{
+  "name": "swft",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fluentui/react": "^7.113.0",
+    "@microsoft/microsoft-graph-client": "^2.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/lodash": "^4.14.152",
+    "@types/node": "^12.12.42",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@uifabric/fluent-theme": "^7.1.74",
+    "assert": "^2.0.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "del": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "history": "^4.10.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "morgan": "^1.10.0",
+    "msal": "^1.3.1",
+    "mssql": "^6.2.0",
+    "path": "^0.12.7",
+    "query-string": "^6.12.1",
+    "react": "^16.13.1",
+    "react-aad-msal": "^2.3.5",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.13.1",
+    "react-flatpickr": "^3.10.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "serve": "concurrently \"gulp clean\" \"react-scripts build && move build server && node server/server.js",
+    "build": "react-scripts build && gulp clean && mv build server",
+    "build-cmd": "react-scripts build && gulp clean && move build server",
+    "start-html": "SET PORT=3000 && react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "prettier": "^2.0.5"
+  }
+}

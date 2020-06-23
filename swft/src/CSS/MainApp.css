@@ -1,0 +1,158 @@
+/* MainApp.css -AAD */
+body{
+  overflow:auto;
+} 
+body{
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1em;
+  font-weight: 400;
+}
+label{
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1em;
+  font-weight: 400;
+}
+.App {
+  text-align: left;
+  display: flex;
+  background-color: #f3f2f1;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.App-header {
+  color: #FFFF;
+  background-color :#4f4e4d;
+  text-align: center;
+}
+.AppHeaderSection{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: left;
+}
+.AppLogo{
+  width:20%;
+  padding:5px;
+}
+.AppLogoImage{
+  width:130px; height:30px;
+}
+.AppHeaderTxt{
+  width:60%;
+  text-align: center;
+}
+.AppBody{
+  flex: 1 auto;
+}
+.footer{
+  flex-shrink: 0;
+}
+.AppFooter{
+  text-align: center;
+  font-size: 1em;
+  background-color: #4f4e4d;
+  color: #FFFF;
+  padding: 1%;
+}
+.spanLink{
+  color: #4f4e4d;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.accountCntrlinks a, .accountCntrlinks a:visited, .accountCntrlinks a:hover{
+  color:#4f4e4d;
+}
+.AppUserInfo{
+  width:20%;
+}
+.AppUserInfoDiv{
+  float: right!important;
+  padding: 0px;
+}
+.AppUserInfoDiv:hover{  
+  background: #ffff;
+}
+.accountCntrlinks a, .accountCntrlinks a:visited, .accountCntrlinks a:hover{
+  color:#106EBE;
+}
+.accountHeader{
+  height:110px;
+  margin-top:2%;
+  padding:1%;
+}
+.accountHeader ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+.spanLink{
+  color: #106EBE;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.infoBtnHeaderPerson{
+  margin:5px;
+  cursor: pointer;
+}
+.headerLogDiv{
+  height: 30px;
+  width: 30px;
+}
+.MainAppLogo{
+  content: '';
+  background: url(./images/TrnDigitalSWFTLogo.png) no-repeat;
+  background-size: 27px;
+}
+.AppLogoImg{
+  content: '';
+  background: url(./images/TrnDigitalSWFTLogo.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+.MainAppLogoDiv{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.centeredContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.textCenter{
+  text-align: center;
+}
+.flexbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  justify-content: space-around;
+}
+.clearfix{
+  clear: both;
+}
+.requiredLabel::after{
+    content: " *";
+    color: rgb(164, 38, 44);
+    padding-right: 12px;
+}
+.ms-Button--primary{
+  background-color: #4f4e4d!important;
+  border-color: black!important;
+}
+.Navigation button:hover{
+  background-color: #ddd;
+  color: black!important;
+}
+.Navigation button{
+  color: white!important;
+}

@@ -1,0 +1,31 @@
+/* formWrapper.css start*/
+.formSection{
+    padding:1.5%;
+    margin-bottom:1.5%;
+}
+.sectionContainer{
+    /* border:1px solid black; */
+    padding:1%;
+}
+.sectionContainer .subHeading {
+    margin-bottom:1%
+}
+.sectionContainer .subHeading h3{
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.subHeading{
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* formWrapper.css End*/
+
+.formMain{
+    width:100%;
+    /*background-color: #ffffff;
+    margin:0.5em auto; */
+}

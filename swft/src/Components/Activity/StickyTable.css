@@ -1,0 +1,10 @@
+table.stickyTable{
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+}
+table.stickyTable th {
+    position: sticky;
+    top: -1px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  }
