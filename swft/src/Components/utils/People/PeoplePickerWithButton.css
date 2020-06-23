@@ -1,0 +1,10 @@
+.peopleSelection{
+    margin-top:2%;
+}
+.peopleSelection>div{
+    margin-right:2%;
+}
+.peopleSelection:first-child{
+    margin-left:2% ;
+    width:100%;
+}

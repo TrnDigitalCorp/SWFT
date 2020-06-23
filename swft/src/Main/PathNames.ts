@@ -1,0 +1,30 @@
+export interface IPathNames{
+    PathName:string;
+    PathKey:string;
+}
+export const PathNames:IPathNames[] =[
+    {
+        PathName:'/Home',
+        PathKey:'0' 
+    },
+    {
+        PathName:'/PlanExperiment',
+        PathKey:'1' 
+    },
+    {
+        PathName:'/PlanActivity',
+        PathKey:'2' 
+    },
+    {
+        PathName:'/PlanOfficeSpace',
+        PathKey:'3' 
+    },
+    {
+        PathName:'/Calendar',
+        PathKey:'4' 
+    },
+    {
+        PathName:'/MyActivities',
+        PathKey:'5' 
+    }
+]

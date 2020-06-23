@@ -1,0 +1,62 @@
+let AppConfig = {
+    id: '5db054fadd74b4130864041b',
+    Icons: {
+        appIconName: '',
+    },
+    Images: {
+        AppHeaderImage: '',
+    },
+    Headings: {
+        AppLogoText: 'TRN Digital - SWFT',
+        MainAppHeading: 'SWFT',
+        sectionAppHeading: 'TRN Digital - SWFT',
+        sectionQuestionsHeading: 'TRN Digital - SWFT',
+    },
+    UserTimeZone: 'Asia/Kolkata', //'America/New_York',//'Asia/Kolkata',
+    DateFormats: {
+        NoTimeDate:"MM/DD/YYYY",
+        dateFormat: 'DD-MM-YYYY hh:mm:ss A',
+        viewFormDateFormat: 'DD-MM-YYYY hh:mm:ss A (zZ)',
+        flatPickrOutputFormat: 'YYYY-MM-DD HH:mm:ss',
+        flatPickrInputFormat: 'MM/DD/YYYY hh:mm A',
+        utcDateFormat: 'YYYY-MM-DDTHH:mm:SSZ',
+    },
+    ActivityForm: {
+        FormRedirectionTimmer:3500,
+        IdParam:'ID',
+        ViewParam:'VIEW',
+        OfcAndIndiActivityType:'Single',
+        TBDRejectDispName: 'TBD',
+        TBDRejectShiftId: 1,
+        showTBD: true,
+        AtivityDateFormat: 'YYYY-MM-DDT00:00:00',
+        NoShiftsErrorMsg: 'No shifts to Display',
+        NoLocationEquipmentErrorMsg: 'No Locations and activities',
+        ErrorDataFetchMessage: 'Error: Fetch failed to get Shift-Location-Equipment Data.Please inform the administration',
+        ErrorValidationMessage: 'Please complete the required fields before proceeding to save the form.',
+        ErrorLSADataFetchMessage: 'Error: Fetch failed to get Shift-Location-Availability Data for the table.Please inform the administration',
+        CreationErrorMessage:'Activity Creation failed.\n',
+        CloneErrorMessage:'Activity Clone failed.\n',
+        UpdateErrorMessage:'Activity Update failed.\n',
+        DeleteErrorMessage:'Activity Delete failed.\n',
+        FullyBookedAlertMsg:'The location(s) are fully booked for the selected shift(s) and day.',
+        FullyBookedDialogMsg:'The location(s) are fully booked for the selected shift(s) and day. By clicking, yes below, you are acknowledging that your booking will create an overcapacity scenario. By proceeding with this, you are fully responsible for ensuring that this overcapacity conflict is mitigated prior to this event. Failure to comply is going against established work rules, and compromising the health and safety of others.',
+        officeSpaceUsageLocation: process.env.REACT_APP_OFFICE_LOCATION_ID?parseInt(process.env.REACT_APP_OFFICE_LOCATION_ID):13,
+        officeSpaceUsageLocationName:  process.env.REACT_APP_OFFICE_LOCATION_NAME?process.env.REACT_APP_OFFICE_LOCATION_NAME:"Office",
+        InactiveStatusId: 2,
+    },
+    Calendar: {
+        Heading: 'Activity Calendar',
+        NextDateDispString: 'ddd DD-MMM',
+        CalendarDateFormat: 'YYYY-MM-DDT00:00:00'
+    },
+    PlanExperiment:{
+        IdParam: 'ID',
+        ParentIdParam: 'PARENTID',
+        ViewParam: 'VIEW',
+        FormRedirectionTimmer:2000,
+        ExpDateFormat: 'YYYY-MM-DDT00:00:00',
+    },
+    Footer: '© TRN Digital 2020',
+};
+export default AppConfig;

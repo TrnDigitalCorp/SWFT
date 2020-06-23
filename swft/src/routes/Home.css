@@ -1,0 +1,32 @@
+.Home{
+    width:90%;
+    margin:1em auto;
+}
+.PageTileSection{
+    display: flex;
+}
+.PageTile{
+    padding: 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;        
+}
+.PageTileContent{
+    padding: 0.5em;
+    text-align: center;
+}
+.transparentBg{
+    background-color: transparent!important;
+}
+.PageTile:hover{
+    background-color: #4f4e4d;
+    color: white;
+}
+.disabledHomeBtn{
+    pointer-events: none;
+    cursor:not-allowed;
+    opacity: 0.5;
+}

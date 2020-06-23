@@ -1,0 +1,111 @@
+.button-right button{
+    margin: 7px;
+    padding: 15px;
+    margin-left: 0px;
+}
+.formHeadflex{
+    margin-top:10px;
+}
+
+.selectSection select{
+    width: 100%;
+    min-height: 203px;
+    max-height: 205px;
+}
+
+.shiftLocation {
+    max-height: 390px;
+    margin: 5% 0 0 0;
+    overflow: auto;
+}
+.shiftLocation table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+.shiftLocation th,.shiftLocation td {
+    text-align: center;
+    font-weight: inherit!important;
+    padding: 2px;
+}
+.shiftLocation th{
+    padding: 5px 0;
+    background-color: #4f4e4d;
+    color: white;
+}
+.shiftLocation tr:nth-child(even){
+    background-color: #dddddd;
+    color:black;
+}
+.shiftLocation td.rowColorRed{
+    color:red;
+    font-weight: bolder;
+}
+.shiftLocation td.rowColorGreen{
+    color:#008e06!important;
+    font-weight: bolder;
+}
+.LocationShiftAvailability{
+    min-height: 328px;
+    font-size: 14px;
+    max-height: 330px;
+}
+.sectionSpinner{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.iconPadClasss{
+    vertical-align: text-bottom;
+    padding: 0 4px;
+}
+.errorMsgInfo{
+    margin-top:15px;
+}
+.alertMsg{
+    margin:0;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    padding-top:5px; 
+    font-weight: 400;
+    color: rgb(204, 0, 10);
+}
+.button-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BlockingDialog p{
+    margin:0;
+}
+.viewFormDisabled{
+    pointer-events: none;
+    opacity:0.8;
+}
+input:disabled,textarea:disabled{
+    color: black;
+    border: 1px solid;
+}
+select:disabled{
+    color: black!important;
+    border: 1px solid;
+}
+option{
+    color: black!important;    
+}
+.is-disabled label{
+    color: black!important;
+}
+.flatPickerClass.viewFormDisabled{
+    border-right: 1px solid black;
+}
+.formMain .leftBtns{
+    display: flex;
+    justify-content: left;
+}
+.formMain .displayNone{
+    display: none;
+}
+
+

@@ -1,0 +1,32 @@
+.SwitchSelector{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:0em 0em;
+}
+.switch{
+    background-color:white;
+    padding:5px;
+    border: 1px solid black;    
+    transition: 0.3s;
+    cursor:pointer;
+    font-size: .9em;
+}
+.switch:hover{
+    background-color: #4f4e4d;
+    color: white;
+}
+.switchSelected{
+    background-color:#4f4e4d;
+    color: white;
+}
+.switchSelected:hover{
+    background-color:#4f4e4d;
+    color:white;
+}
+.SwitchSelector>div {
+    width: 100%;
+    margin: 0px 2px;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.actionModal{
+    padding:24px 40px;
+    max-width: 300px;
+    border-top: 24px solid #4f4e4d;
+}
+.actionHeading h2{
+    margin:0;
+}
+.actionIcon{
+    font-size: 80px;
+    text-align: center;
+}
+.actionButtonsDiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.greenIcon{
+    color:green;
+}
+.redIcon{
+    color: rgb(194, 0, 11);
+}
+.themeIcon{
+    color: #4f4e4d;
+}
