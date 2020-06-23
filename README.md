@@ -12,7 +12,7 @@
  
     If you unzip to C:\SWFT to start, then the Power Bi file will already have the correct path to the demo Excel files. Otherwise the file paths will need to be updated to the user's file path.
 
-### Changing the source of the Excel files - Method 1
+## Changing the source of the Excel files - Method 1
     Within Power Bi Desktop
     Click 'File' from the menu bar
     Navigate to 'Options and settings' and select Data source settings
