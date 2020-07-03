@@ -196,3 +196,26 @@ npm run build
 
 ```
 10. Browse the app using Web APP URL
+
+# Screenshots
+
+### Home Page
+![Home Page](https://github.com/TrnDigitalCorp/SWFT/blob/master/Images/HomePage.png)
+  
+### Plan Experiment
+![Plan Experiment](https://github.com/TrnDigitalCorp/SWFT/blob/master/Images/PlanExperiment.png)
+  
+### Clone Experiment
+![Clone Experiment](https://github.com/TrnDigitalCorp/SWFT/blob/master/Images/CloneExperiment.png)
+  
+### Plan Activity
+![Plan Activity](https://github.com/TrnDigitalCorp/SWFT/blob/master/Images/PlanActivity.png)
+  
+### Plan Office Usage
+![Plan Office Usage](https://github.com/TrnDigitalCorp/SWFT/blob/master/Images/PlanOfficeUsage.png)
+  
+### Calendar
+![Calendar](https://github.com/TrnDigitalCorp/SWFT/blob/master/Images/Calendar.png)
+  
+### My Activities
+![My Activities](https://github.com/TrnDigitalCorp/SWFT/blob/master/Images/MyActivities.png)
