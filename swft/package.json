@@ -16,7 +16,7 @@
     "@types/react-router-dom": "^5.1.5",
     "@uifabric/fluent-theme": "^7.1.74",
     "assert": "^2.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "concurrently": "^5.2.0",
     "cors": "^2.8.5",
